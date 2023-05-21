@@ -14,7 +14,17 @@ public class Pessoa {
     
     private int cpf;
     
+    private int sexo;
     
+    
+	public int getSexo() {
+		return sexo;
+	}
+
+	public void setSexo(int sexo) {
+		this.sexo = sexo;
+	}
+
 	public int getCpf() {
 		return cpf;
 	}
