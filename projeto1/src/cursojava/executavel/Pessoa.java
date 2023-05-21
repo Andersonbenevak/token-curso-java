@@ -12,7 +12,17 @@ public class Pessoa {
     
     private int dataNascimento;
     
+    private int cpf;
     
+    
+	public int getCpf() {
+		return cpf;
+	}
+
+	public void setCpf(int cpf) {
+		this.cpf = cpf;
+	}
+
 	public int getDataNascimento() {
 		return dataNascimento;
 	}
