@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 
+import primeiraclassjava.constantes.StatusAluno;
+
 //Está é uma Classe em java/Objeto.
 public class Aluno {
 	// TODO Auto-generated method stub
@@ -150,12 +152,12 @@ public class Aluno {
 		double media = this.getMediaFinal();
 		if (media >= 50) {
 			if (media >= 70) {
-				return "Aluno aprovado";
+				return StatusAluno.APROVADO;
 			} else {
-				return "Aluno em recuperação";
+				return StatusAluno.RECUPERACAO;
 			}
 		} else {
-		return "Aluno reprovado";
+			return StatusAluno.REPROVADO;
 		}
 	}
 
